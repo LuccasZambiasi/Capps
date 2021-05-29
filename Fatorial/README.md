@@ -1,0 +1,2 @@
+🎉 | Add fatorial calculation
+
