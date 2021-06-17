@@ -29,7 +29,7 @@ Na `string.c` há as três 3 funções (que também estão separadas por exercí
   inverte_e_mostra(string);  
 ```
 
-Começo criando um char aray de 50 valores, que será a `string`. Em seguida, executo o `gets`, que recebe como parâmetro um vetor de char. Essa função é um `scanf` de strings. Como pedido no primeiro exercício, mostramos na tela qual é a string, e em seguida chamo minha função para inverter.
+Criamos um char aray de 50 valores, que será a `string`. Em seguida, executo o `gets`, que recebe como parâmetro um vetor de char. Essa função é um `scanf` de strings. Como pedido no primeiro exercício, mostramos na tela qual é a string, e em seguida chamo minha função para inverter.
 
 A função `inverte_e_mostra` é do tipo `void` e recebe um array como parâmetro, A primeira coisa que ela faz é criar um `int` chamado strle, que chama a função `tamanhoDaString`. Vamos ver o que essa função faz antes de continuar.
 
@@ -81,11 +81,11 @@ void concatena_e_mostra(char str1[], char str2[], int strleng1, int strleng2) {
 }
 ```
 
-A função `concatena_e_mostra` é do tipo `void`, ou seja, não vai retornar nenhum valor, e ela recebe 4 parâmetros, duas strings, e o tamanho dessas strings. Na primeira linha criamos uma nova string com 100 de tamanho. Para juntarmos as duas, vamos loopar entre as duas strings, e ir adicionando na nova. O primeiro **for** loopa entre toda string 1, e armazena na `conc_strings`, o segundo **for** loopa entre toda a segunda string, e na hora de adicionar na conc_strings, ele leva em consideração o tamanho da primeira string, para adicionar os caracteres depois da primeira. Depois dos dois loops, adiciono o '\0' no fim da string para settar que aquele é o final. Por fim, printo na tela o resultado da concatenação.
+A função `concatena_e_mostra` recebe 4 parâmetros, duas strings, e o tamanho dessas strings. Na primeira linha criamos uma nova string com 100 de tamanho. Para juntarmos as duas, vamos loopar entre as duas strings, e ir adicionando na nova. O primeiro **for** loopa entre toda string 1, e armazena na `conc_strings`, o segundo **for** loopa entre toda a segunda string, e na hora de adicionar na conc_strings, ele leva em consideração o tamanho da primeira string, para adicionar os caracteres depois da primeira. Depois dos dois loops, adiciono o '\0' no fim da string para settar que aquele é o final. Por fim, printo na tela o resultado da concatenação.
 
 ### Exercício 3
 
-O exercício 3 pede para que o usuário digite uma string de no máximo 30 caracteres, que vai ser armazenada no `char s[30]` com a função `gets`. Então, chamamos a função `escreve_palavras` que fará a escrita de cada palavra da string em uma linha diferente.
+Pedimos para o usuário digitar uma string de no máximo 30 caracteres, que vai ser armazenada no `char s[30]` com a função `gets`. Então, chamamos a função `escreve_palavras` que fará a escrita de cada palavra da string em uma linha diferente.
 
 ```c
 void escreve_palavras(char string[]) {
@@ -106,4 +106,4 @@ void escreve_palavras(char string[]) {
 }
 ```
 
-A função `escreve_palavras` recebe a string, e logo no início já armazenamos o tamanho dela no `int tamanhoString` a partir da nossa função `tamanhoDaString`. Então, com um laço **for** eu passo por todos caracteres da string, e verifico se o caractere atual for um espaço em branco (_' '_), se for, printamos uma nova linha, caso contrario, printamos cada caractere na linha atual. 
+A função `escreve_palavras` recebe a string e armazenamos o tamanho dela no `int tamanhoString` a partir da função `tamanhoDaString`. Então, com um laço **for** eu passo por todos caracteres da string, e verifico se o caractere atual for um espaço em branco (_' '_), se for, printamos uma nova linha, caso contrario, printamos cada caractere na linha atual. 
