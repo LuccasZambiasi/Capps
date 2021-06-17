@@ -1,6 +1,6 @@
 # Gerador de Senhas Aleatórias
-***
-## Introduction
+
+## Introdução
 Este é um código escrito em C para gerar senhas aleatórias. 
 
 ## Como usar
