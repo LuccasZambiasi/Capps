@@ -2,41 +2,38 @@
 
 int main() {
   // Variáveis
-  char string[50]; // String do usuário
-  int temp = 0; // Variável para contar quantas letras teremos que printar
+  char s[50]; 
 
   // Entrada
-  printf("Digite uma palavra: ");
-  gets(string);
+  printf("Digite uma palavra ou frase (maximo de 50c): ");
+  gets(s);
 
-  /* 
-  Pra printar cada letra da string, vamos usar um for dentro de um for para que o primeiro
-  seja para as linhas e o segundo seja a quantidade de letras pra printar.
-  */
+  // Retorno
+  pula_linha(s);
+
+  // Encerramento
+  system("pause");
+  return 0;
+}
+
+// Função para escrever a palavra pulando a linha
+void pula_linha(char string[]) {
+  int temp = 0;
+
   for (int i = 0; i <= 50; i++) {
-    // "Breakar" o código caso a string já tenha acabado
-    if (string[i] == '\0')
-      break;  
-    /*
-    2o For: verificamos se J ja for maior que a quantidade de letras que
-    queremos printar, se sim, voltamos para o 1o for. 
-    Depois fiz mais uma verificação se acabou a string pelo \0, e aí printei no caractere da string
-    com o valor de J, pois assim ele vai printar todas letras até o j ser maior que a 
-    quantidade de letras que queremos printar. 
-    Quando terminar de printar o 2o For, ele breaka pro 1o For, aumentando o número de letras
-     que vamos mostrar depois, e vamos para uma nova linha com \n
-    */
+    if (string[i] == '\0') {
+        break;   
+    }
     for (int j = 0; j <= 50; j++) {
-      if (j > temp)
+      if (j > temp) {
         break;
-      if (string[j] == '\0')
+      }
+      if (string[j] == '\0') {
         break;
+      }
       printf("%c", string[j]);
     }
     temp++;
     printf("\n");
   }
-
-  system("pause");
-  return 0;
 }
