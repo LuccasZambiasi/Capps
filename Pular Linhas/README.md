@@ -85,6 +85,6 @@ for (int i = 0; i <= 50; i++) {
 }
 ```
 
-No segundo for, verificamos se ``j`` for maior que a quantidade de letras, se sim, voltamos para o primeiro `for` com o break. Assim, iremos para a segunda verificação, que, verifica se acabou a string, aí printamos no caractere da string com o valor de j, para printar todas as letras até que o J seja maior que a quantidade que queremos. Assim, quando o programa termina o print do segundo laço for, ele breaka voltando para o primeiro laço, aumentando o número de letras que vamos mostrar, e, pulamos para uma nova linha com o \n.
+No segundo ``for``, verificamos se ``j`` for maior que a quantidade de letras, se sim, voltamos para o primeiro `for` com o break. Assim, iremos para a segunda verificação, que, verifica se acabou a string, aí printamos no caractere da string com o valor de j, para printar todas as letras até que o J seja maior que a quantidade que queremos. Assim, quando o programa termina o print do segundo laço for, ele breaka voltando para o primeiro laço, aumentando o número de letras que vamos mostrar, e, pulamos para uma nova linha com o \n.
 
 
