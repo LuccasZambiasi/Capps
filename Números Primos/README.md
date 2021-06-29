@@ -15,4 +15,4 @@ Pra deixar o programa em loop e fazer o cálculo, vou utilizar um laço For.
 
 Dentro do laço For, criamos condições para verificar se o número é primo ou não, e, para isso: definimos `i = 2` e `i <= n/2` e, se, o resto da divisão por ``n / 1`` for diferente de zero, significa que ele é primo. 
 
-Depois, printamos com o ``printf`` o resultado.
+Depois, printamos usando o ``printf`` o resultado.
