@@ -1,7 +1,7 @@
 # Gerador de Senhas Aleatórias
 
 ## Introdução
-Este é um código escrito em C para gerar senhas aleatórias. 
+Esse é um código escrito em C para gerar senhas aleatórias. 
 
 ## Como usar
 1. Coloque o código em seu sistema.
