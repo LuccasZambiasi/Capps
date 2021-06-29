@@ -59,7 +59,7 @@ Dentro da função, criamos uma variável do tipo `int` temp para poder contar q
 int temp = 0;
 ```
 
-Iremos iniciar loopando a função com um for `for` que irá printar a palavra inteira, sem pular para novas linhas. Adicionei um break no `for` pra breckar o código caso a string tenha acabado (identificado pelo \0).
+(Exemplo) Podemos iniciar loopando a função com um for `for` que irá printar a palavra inteira, sem pular para novas linhas. Adicionei um break no `for` pra breckar o código caso a string tenha acabado (identificado pelo \0).
 ```c
 for (int i = 0; i <= 50; i++) {
     if(string[i] == '\0') break;
