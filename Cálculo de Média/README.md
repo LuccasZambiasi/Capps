@@ -19,4 +19,4 @@ Primeiro pedimos para que o usuário digite a primeira nota e escaneamos-o com `
 
 Para fazer o cálculo, usamos a fórmula `media = (nota1 + nota2 + nota3)/3;`
 
-Depois do cálculo, damos o resultado ao usuário com um `printf` e dependendo do resultado do cálculo exibe a mensagem do status (insuficiente, mediocre ou excelente).
+Depois do cálculo, damos o resultado ao usuário com um `printf` e dependendo do resultado do cálculo exibe uma mensagem do status (insuficiente, mediocre ou excelente).
