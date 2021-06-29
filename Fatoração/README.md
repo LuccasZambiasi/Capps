@@ -15,4 +15,4 @@ Pra deixar o programa em loop e fazer o cálculo, vou utilizar um laço For.
 
 Dentro do laço For, criamos condições para identificar a fatoração, e, para isso: definimos `i = 1` e `i <= numero` aumentando uma unidade em `i` e, se, o resto da divisão por ``numero / i`` for igual a zero, significa que ele será possível fazer a fatoração. 
 
-Depois, printamos com o ``printf`` o resultado.
+Depois, printamos usando o ``printf`` o resultado.
