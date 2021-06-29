@@ -15,4 +15,4 @@ Pra deixar o programa em loop e fazer o cálculo, vou utilizar um laço For.
 
 Dentro do laço For, criamos condições para realizar o cálculo, e, para isso: definimos `fatorial = 1` e `x > 1` e para cada unidade, reduzimos x em 1 unidade com ``x--``. Após, redefinimos a variável fatorial como ``fatorial = fatorial * x`` para obter o resultado do fatorial.
 
-Depois, printamos com o ``printf``.
+Depois, printamos usando o ``printf``.
