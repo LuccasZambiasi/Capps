@@ -43,7 +43,7 @@ for (i=0; i<5; i++){
 ## Resolução (2)
 
 Criamos as variáveis `t`, `op1`, `op2`, `op3` e `vetor[51] = {0, 1, 2, 3, ...}` do tipo `int`. 
-Após, fazemos um for da variável `t` para fazer a listagem do vetor com ``for (t=1; t < 51; t++)``. Nisso, dentro do laço, precisamos identificar se o número é par ou não, logo, para isso, verificamos se o resto da divisão por 2 dá zero com ``t%2 == 0`` e se for usamos a variável op1 dividindo o vetor criado por 2. Caso contrário, usaremos as variáveis op2 e op3 para fazer a multiplicação de forma correta e printamos o resultado, como:
+Após, fazemos um for da variável `t` para fazer a listagem do vetor com ``for (t=1; t < 51; t++)``. Nisso, dentro do laço, precisamos identificar se o número é par ou não, logo, para isso, verificamos se o resto da divisão por 2 dá zero com ``t%2 == 0`` e se for usamos a variável op1 dividindo o vetor criado por 2. Caso contrário, usaremos as variáveis op2 e op3 para fazer a multiplicação de forma correta e printamos o resultado, como:.
 ```c
 for (t=1; t < 51; t++) {
   if (t%2 == 0) {
