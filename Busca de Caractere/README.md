@@ -2,7 +2,7 @@
 
 ## Proposta
 
-A criação de um programa que o usuário digite uma frase de até 100 caractéres e escolha uma letra dela para buscar e, o programa verifica quantas vezes essa letra aparece na string.
+A criação de um programa que o usuário digite uma frase/palavra de até 100 caractéres e escolha uma letra dela para buscar e, o programa verifica quantas vezes essa letra aparece na string.
 
 ## Resolução
 
