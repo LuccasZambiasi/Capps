@@ -1,4 +1,4 @@
-# Contador de Palavras com Strings
+# Calculadora Básica
 
 ## Proposta
 
