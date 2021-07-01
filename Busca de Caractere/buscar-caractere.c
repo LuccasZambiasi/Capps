@@ -3,29 +3,29 @@
 int main() {
 
   // Variáveis
-  char str[100];
-  char letra;
-  int repetidas = 0;
+  char s[100];
+  char busca;
+  int loop = 0;
 
   // Entrada
-  printf("Digite uma frase\n");
-  gets(str);
+  printf("Escreva uma frase ou palavra (maximo de 100 caracteres)\n");
+  gets(s);
 
   printf("\nDigite um caractere para buscar: ");
-  scanf("%c", &letra);
+  scanf("%c", &busca);
 
   printf("\n");
 
   // Cálculo
   for (int i = 0; i < 100; i++) {
-    if (str[i] == '\0')
+    if (s[i] == '\0')
       break;
 
-    if (str[i] == letra)
-      repetidas++;
+    if (s[i] == busca)
+      loop++;
   }
  
   // Retorno
-  printf("O caractere (%c) aparece (%i) vezes na sua string", letra, repetidas);
+  printf("O caractere (%c) aparece (%i) vezes na sua string", letra, loop);
   return 0;
 }
