@@ -3,6 +3,7 @@
 ## Proposta
 
 A criação de um programa no qual haja uma matriz 5x5 aleatória, com bordas (0) e mostre sua diagonal principal e secundária.
+Extra: a soma das linhas e colunas da matriz anteriormente criada.
 
 ## Resolução
 
@@ -106,3 +107,8 @@ printf("\n\n");
 ```
 
 E assim, completamos o programa.
+
+### Extra: soma de colunas e linhas da matriz criada.
+
+Adição no programa: foi adicionado o "diagonal-de-matriz-2.c" que adicionei a soma de colunas e linhas da matriz criada na primeira proposta. Código/raciocínio comementado no próprio programa.
+
