@@ -112,3 +112,6 @@ E assim, completamos o programa.
 
 Adição no programa: foi adicionado o "diagonal-de-matriz-2.c" que adicionei a soma de colunas e linhas da matriz criada na primeira proposta. Código/raciocínio comementado no próprio programa.
 
+### Extra: mostrando a diagonal na própria matriz.
+
+Adição no programa: foi adicionado o "diagonal-de-matriz-32.c" que adicionei para mostrar as diagonais (tanto primária como secundária) direto na matriz printada no início do código.
